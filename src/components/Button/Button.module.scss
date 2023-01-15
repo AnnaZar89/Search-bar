@@ -1,0 +1,21 @@
+.element {
+  background-color: cyan;
+  &.hasColor {
+    &-red {
+      background-color: red;
+    }
+    &-green {
+      background-color: green;
+    }
+    &-black {
+      background-color: black;
+    }
+  }
+
+  /*&.hasColor-red {
+    background-color: red;
+  }
+  &.hasColor-green {
+    background-color: green;
+  }*/
+}

@@ -1,0 +1,15 @@
+@import "../../assets/styles/mixing.scss";
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+
+  @include s {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include md {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
